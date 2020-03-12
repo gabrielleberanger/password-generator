@@ -1,4 +1,4 @@
-## Strong Random Password Generator
+## Generating strong random passwords, and storing them for future use
 
 *This project was completed as part of my cursus at Ironhack (a 9-week intensive coding bootcamp).*
 
