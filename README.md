@@ -17,7 +17,7 @@ It then displays the **generated password**, along with the associated **securit
 <a href="https://www.codecogs.com/eqnedit.php?latex=t&space;=&space;\frac{\frac{N}{2}}{10^{10}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t&space;=&space;\frac{\frac{N}{2}}{10^{10}}" title="t = \frac{\frac{N}{2}}{10^{10}}" /></a>
  - Also, to reduce the probability of getting simple combinations that could be guessed easily, we made sure that **AZERTY keyboard neighbors** (such as 1234, TYUI, etc.) **would never appear in the generated password**. This feature could be improved by adding other keyboard combinations (QWERTY in particular).
 
-If the user is satisfied with the generated password, the program suggests him/her to **save it into a** `saved-password` **binary file**, so that he/she can retrieve it later on, launching the `password-directory.py` executable. *If the* `saved-password` *file does not exist yet, it will be automatically created in the current working directory.* While saving the password, the user is asked to **indicate the associated website and username**.
+If the user is satisfied with the generated password, the program suggests him/her to **save it into a** `saved-passwords` **binary file**, so that he/she can retrieve it later on, launching the `password-directory.py` executable. *If the* `saved-passwords` *file does not exist yet, it will be automatically created in the current working directory.* While saving the password, the user is asked to **indicate the associated website and username**.
 
  `password-directory.py` 
 
